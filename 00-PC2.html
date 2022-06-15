@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>Cubes everywhere | Computer graphics</title>
+		<link href="css/style.css" rel="stylesheet">
+		<style>
+			#inputs {
+				position: relative;
+			}
+			#inputs label {
+				position: absolute;
+				top: 0;
+				left: 0;
+				border: none;
+				background: none;
+				color: #fff;
+			}
+			input {
+				display: block;
+				width: 250px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="inputs">
+			<canvas id="canvitas"></canvas>
+			<label>
+				<em>Ambient light</em>
+				<input type="range" id="ambient" value="0" min="0" max="100">
+				<em>Ambient R color</em>
+				<input type="range" id="ambientR" value="1" min="0" max="255">
+				<em>Ambient G color</em>
+				<input type="range" id="ambientG" value="1" min="0" max="255">
+				<em>Ambient B color</em>
+				<input type="range" id="ambientB" value="1" min="0" max="255">
+
+				<em>Camara R color</em>
+				<input type="range" id="camR" value="1" min="0" max="255">
+				<em>Camara G color</em>
+				<input type="range" id="camG" value="1" min="0" max="255">
+				<em>Camara B color</em>
+				<input type="range" id="camB" value="1" min="0" max="255">
+
+				<em>Difuse R color</em>
+				<input type="range" id="difuseR" value="1" min="0" max="255">
+				<em>Difuse G color</em>
+				<input type="range" id="difuseG" value="1" min="0" max="255">
+				<em>Difuse B color</em>
+				<input type="range" id="difuseB" value="1" min="0" max="255">
+
+				<em>Lampara light</em>
+				<input type="range" id="lamp" value="0" min="0" max="100">
+				
+
+				
+			</label>
+		</div>
+		<script type="module" src="/js/01-PC2.js"></script>
+	</body>
+</html>
